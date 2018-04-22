@@ -1,3 +1,6 @@
+Detail programme:
+J'ai essayer de recreer un systeme simple de keyframe pour faire l'animation
+
 Touche:
 8 deplace lumiére vers le haut (y+)
 2 deplace lumiére vers le bas (y-)
