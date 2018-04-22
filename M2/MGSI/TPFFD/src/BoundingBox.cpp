@@ -85,8 +85,7 @@ void BoundingBox::ComputeST(){
         double s = dot(T,(P-P0))/dot(T,S);
         double t = dot(S,(P-P0))/dot(S,T);
 
-        Col<double> Pst = P0 + s*S + t*T;
-        verticesRepereST->append(new Vertex(Pst));
+        verticesRepereST->append(new Vertex(dvec({s,t})));
     }
 
     formeRepereST = new Forme(verticesRepereST);

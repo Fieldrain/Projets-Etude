@@ -13,5 +13,5 @@ TypeObject Forme::GetType(){
 }
 
 void Forme::ShowVBO(){
-    Object::ShowVBODefault(GL_LINE);
+    Object::ShowVBODefault(GL_LINE_LOOP);
 }

@@ -36,7 +36,6 @@ void Object::GenereVBO(){
     for(int i=0;i<points->length();i++){
         indices.push_back(i);
     }
-    indices.push_back(0);
     
     if(!bID.set)
         bID.BufferID();
@@ -76,7 +75,8 @@ void Object::ShowVBODefault(GLenum affichage){
         glEnableClientState(GL_VERTEX_ARRAY);
         glEnableClientState(GL_COLOR_ARRAY);
 
-        glDrawElements(affichage, (GLsizei)indices.size(), GL_UNSIGNED_INT, 0);
+        //glDrawElements(affichage, (GLsizei)indices.size(), GL_UNSIGNED_INT, 0);
+        glDrawArrays(affichage,0,(GLsizei)indices.size());
 
         glDisableClientState(GL_VERTEX_ARRAY);
         glDisableClientState(GL_COLOR_ARRAY);
