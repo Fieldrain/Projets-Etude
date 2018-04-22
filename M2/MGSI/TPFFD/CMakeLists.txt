@@ -11,12 +11,17 @@ if (UNIX)
 
     set(GLFW_LIBRARY /usr/lib/x86_64-linux-gnu/libglfw.so)
     set(GLEW_LIBRARY /usr/lib/x86_64-linux-gnu/libGLEW.so)
+
+    set(ARMA_LIBRARY /usr/lib/libarmadillo.so)
+    set(APACK_LIBRARY /usr/lib/liblapack.so)
+    set(ABLAS_LIBRARY /usr/lib/libblas.so)
 endif (UNIX)
 
 if(WIN32)
     SET(CMAKE_EXE_LINKER_FLAGS /NODEFAULTLIB:\"MSVCRT\")
     set(GLFW_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/glfw3.lib)
     set(GLEW_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/glew32.lib)
+    
     set(ARMA_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/armadillo.lib)
     set(APACK_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/lapack_win64_MT.lib)
     set(ABLAS_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/blas_win64_MT.lib)
