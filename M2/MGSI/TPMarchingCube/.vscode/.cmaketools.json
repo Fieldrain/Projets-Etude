@@ -1,0 +1,469 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+            "name": "MARCHING",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/Debug/MARCHING.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/Debug/MARCHING.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/Debug/MARCHING.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Arrete.h",
+                      "src/Blob.h",
+                      "src/Carreau.h",
+                      "src/ConstructeurBlob.h",
+                      "src/ConstructeurDisk.h",
+                      "src/ConstructeurObject.h",
+                      "src/Disk.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Grille.h",
+                      "src/Marching.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Arrete.cpp",
+                      "src/Blob.cpp",
+                      "src/Carreau.cpp",
+                      "src/ConstructeurBlob.cpp",
+                      "src/ConstructeurDisk.cpp",
+                      "src/Disk.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Grille.cpp",
+                      "src/Marching.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "MARCHING.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "MARCHING",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/2a8d19c8ec9724017d077924f5d53638/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+            "name": "MARCHING",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/Release/MARCHING.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/Release/MARCHING.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/Release/MARCHING.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Arrete.h",
+                      "src/Blob.h",
+                      "src/Carreau.h",
+                      "src/ConstructeurBlob.h",
+                      "src/ConstructeurDisk.h",
+                      "src/ConstructeurObject.h",
+                      "src/Disk.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Grille.h",
+                      "src/Marching.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Arrete.cpp",
+                      "src/Blob.cpp",
+                      "src/Carreau.cpp",
+                      "src/ConstructeurBlob.cpp",
+                      "src/ConstructeurDisk.cpp",
+                      "src/Disk.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Grille.cpp",
+                      "src/Marching.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "MARCHING.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "MARCHING",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/2a8d19c8ec9724017d077924f5d53638/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+            "name": "MARCHING",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/MinSizeRel/MARCHING.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/MinSizeRel/MARCHING.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/MinSizeRel/MARCHING.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Arrete.h",
+                      "src/Blob.h",
+                      "src/Carreau.h",
+                      "src/ConstructeurBlob.h",
+                      "src/ConstructeurDisk.h",
+                      "src/ConstructeurObject.h",
+                      "src/Disk.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Grille.h",
+                      "src/Marching.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Arrete.cpp",
+                      "src/Blob.cpp",
+                      "src/Carreau.cpp",
+                      "src/ConstructeurBlob.cpp",
+                      "src/ConstructeurDisk.cpp",
+                      "src/Disk.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Grille.cpp",
+                      "src/Marching.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "MARCHING.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "MARCHING",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/2a8d19c8ec9724017d077924f5d53638/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+            "name": "MARCHING",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/RelWithDebInfo/MARCHING.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/RelWithDebInfo/MARCHING.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bin/RelWithDebInfo/MARCHING.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Arrete.h",
+                      "src/Blob.h",
+                      "src/Carreau.h",
+                      "src/ConstructeurBlob.h",
+                      "src/ConstructeurDisk.h",
+                      "src/ConstructeurObject.h",
+                      "src/Disk.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Grille.h",
+                      "src/Marching.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Arrete.cpp",
+                      "src/Blob.cpp",
+                      "src/Carreau.cpp",
+                      "src/ConstructeurBlob.cpp",
+                      "src/ConstructeurDisk.cpp",
+                      "src/Disk.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Grille.cpp",
+                      "src/Marching.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "MARCHING.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "MARCHING",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/2a8d19c8ec9724017d077924f5d53638/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPMarchingCube",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.9699108626212338",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

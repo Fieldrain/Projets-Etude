@@ -1,0 +1,401 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+            "name": "Shader",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/Debug/Shader.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/Debug/Shader.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/Debug/Shader.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Torus.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TpShader/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Torus.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Shader.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Shader",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/574d37c93278e9a20a249b5cfbaed90e/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+            "name": "Shader",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/Release/Shader.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/Release/Shader.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/Release/Shader.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Torus.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TpShader/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Torus.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Shader.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Shader",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/574d37c93278e9a20a249b5cfbaed90e/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+            "name": "Shader",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/MinSizeRel/Shader.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/MinSizeRel/Shader.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/MinSizeRel/Shader.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TpShader/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Torus.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Torus.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "Shader.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Shader",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/574d37c93278e9a20a249b5cfbaed90e/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+            "name": "Shader",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/RelWithDebInfo/Shader.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/RelWithDebInfo/Shader.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TpShader/bin/RelWithDebInfo/Shader.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Torus.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TpShader/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Torus.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Shader.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Shader",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/574d37c93278e9a20a249b5cfbaed90e/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TpShader",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.21807616976743827",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

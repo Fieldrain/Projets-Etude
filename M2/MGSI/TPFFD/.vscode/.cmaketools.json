@@ -1,0 +1,429 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/Debug/Fractal.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/Debug/Fractal.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/Debug/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/BoundingBox.h",
+                      "src/ConstructeurCourbe.h",
+                      "src/ConstructeurObject.h",
+                      "src/Courbe.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPFFD/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/BoundingBox.cpp",
+                      "src/ConstructeurCourbe.cpp",
+                      "src/Courbe.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/68ee81efa45ff5c212e388811590ebeb/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/Release/Fractal.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/Release/Fractal.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/Release/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/BoundingBox.h",
+                      "src/ConstructeurCourbe.h",
+                      "src/ConstructeurObject.h",
+                      "src/Courbe.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPFFD/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/BoundingBox.cpp",
+                      "src/ConstructeurCourbe.cpp",
+                      "src/Courbe.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/68ee81efa45ff5c212e388811590ebeb/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/MinSizeRel/Fractal.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/MinSizeRel/Fractal.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/MinSizeRel/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/BoundingBox.h",
+                      "src/ConstructeurCourbe.h",
+                      "src/ConstructeurObject.h",
+                      "src/Courbe.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPFFD/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/BoundingBox.cpp",
+                      "src/ConstructeurCourbe.cpp",
+                      "src/Courbe.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/68ee81efa45ff5c212e388811590ebeb/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/RelWithDebInfo/Fractal.exe",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/RelWithDebInfo/Fractal.lib",
+                  "C:/Users/bonfi/Desktop/MGSI/TPFFD/bin/RelWithDebInfo/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/BoundingBox.h",
+                      "src/ConstructeurCourbe.h",
+                      "src/ConstructeurObject.h",
+                      "src/Courbe.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Sujet.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/MGSI/TPFFD/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/BoundingBox.cpp",
+                      "src/ConstructeurCourbe.cpp",
+                      "src/Courbe.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/Object.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Sujet.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/68ee81efa45ff5c212e388811590ebeb/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/MGSI/TPFFD",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.8015665372991805",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

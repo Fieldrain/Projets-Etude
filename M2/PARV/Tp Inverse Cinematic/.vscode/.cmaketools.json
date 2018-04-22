@@ -1,0 +1,353 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+            "name": "IK",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/Debug/IK.exe",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/Debug/IK.lib",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/Debug/IK.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/nr.h",
+                      "src/nrutil.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/IKn.cpp",
+                      "src/nrutil.cpp",
+                      "src/pythag.cpp",
+                      "src/svdcmp.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "IK.exe",
+                "linkFlags": "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "glu32.lib opengl32.lib C:\\LibExterne\\lib\\x64\\freeglut.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "IK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/9f9a5b7943a9b89008b63430848b9303/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+            "name": "IK",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/Release/IK.exe",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/Release/IK.lib",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/Release/IK.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/nr.h",
+                      "src/nrutil.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/IKn.cpp",
+                      "src/nrutil.cpp",
+                      "src/pythag.cpp",
+                      "src/svdcmp.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "IK.exe",
+                "linkFlags": "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib C:\\LibExterne\\lib\\x64\\freeglut.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "IK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/9f9a5b7943a9b89008b63430848b9303/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+            "name": "IK",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/MinSizeRel/IK.exe",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/MinSizeRel/IK.lib",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/MinSizeRel/IK.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/nr.h",
+                      "src/nrutil.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/IKn.cpp",
+                      "src/nrutil.cpp",
+                      "src/pythag.cpp",
+                      "src/svdcmp.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "IK.exe",
+                "linkFlags": "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib C:\\LibExterne\\lib\\x64\\freeglut.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "IK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/9f9a5b7943a9b89008b63430848b9303/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+            "name": "IK",
+            "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/RelWithDebInfo/IK.exe",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/RelWithDebInfo/IK.lib",
+                  "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bin/RelWithDebInfo/IK.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/nr.h",
+                      "src/nrutil.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/IKn.cpp",
+                      "src/nrutil.cpp",
+                      "src/pythag.cpp",
+                      "src/svdcmp.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "IK.exe",
+                "linkFlags": "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib C:\\LibExterne\\lib\\x64\\freeglut.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "IK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/9f9a5b7943a9b89008b63430848b9303/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Desktop/Parv/Tp Inverse Cinematic",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.9280542587099685",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
