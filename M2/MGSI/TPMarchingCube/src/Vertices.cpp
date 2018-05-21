@@ -178,8 +178,8 @@ Vertices* Vertices::operator+(const Vertices* second){
 ostream& operator<<(ostream& os, const Vertices* v){
 
 	os << "Taille du tabeau : " << v->length() <<endl;
-	for(Vertex * v : v->listVertex){
-		os << '\t' << v <<endl;
+	for(Vertex * ve : v->listVertex){
+		os << '\t' << ve <<endl;
 	}
     
     return os; 
