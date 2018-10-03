@@ -1,0 +1,26 @@
+{
+    'Ligne':[
+        label:toto,
+		point:(1,0,0)(0,0,1)
+    ]
+}
+
+{
+    @Root: [
+        etats : 'etat_1';
+        transitions : (0,1,3;
+                       0,2,0;
+                       0,0,0);
+        forme :toto;
+    ]
+    @etat_1: [
+        etats : 'etat_1','etat_1';
+        transitions : (1/4,1/2,1;
+                       1/2,1/2,0;
+                       1/4,0,0),(0,0,1/4;
+                                   0,1/2,1/2;
+                                   1,1/2,1/4);
+        forme :toto;
+    ]
+
+}

@@ -1,0 +1,18 @@
+{
+    'Triangle':[
+        label: toto,
+        dimension: 2,
+		point:(0,0,1)(0.5,1,1)(1,0,1),
+        'attri':val
+    ]
+}
+
+{
+    @etat_1: [
+        etats : 'etat_1';
+        dimension : 3;
+        transitions : (1,0,2;0,1,2;0,0,1),'(0.33,0,0;0,0.33,0;0,0,1)*(1,0,0.33;0,1,0;0,0,1)';
+        forme : toto;
+    ]
+
+}

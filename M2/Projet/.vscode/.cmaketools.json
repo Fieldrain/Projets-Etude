@@ -1,0 +1,553 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/Debug/Fractal.exe",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/Debug/Fractal.lib",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/Debug/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Carre.h",
+                      "src/ConstructeurAutomate.h",
+                      "src/ConstructeurAutomateClassique.h",
+                      "src/ConstructeurCarre.h",
+                      "src/ConstructeurLigne.h",
+                      "src/ConstructeurObject.h",
+                      "src/ConstructeurTriangle.h",
+                      "src/Etat.h",
+                      "src/FabriqueAutomate.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/GestionRegex.h",
+                      "src/Ifs.h",
+                      "src/LecteurOption.h",
+                      "src/LecteurScene.h",
+                      "src/Ligne.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/ResultatIfs.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Tangentes.h",
+                      "src/Transition.h",
+                      "src/Triangle.h",
+                      "src/Uv.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Carre.cpp",
+                      "src/ConstructeurAutomateClassique.cpp",
+                      "src/ConstructeurCarre.cpp",
+                      "src/ConstructeurLigne.cpp",
+                      "src/ConstructeurTriangle.cpp",
+                      "src/Etat.cpp",
+                      "src/FabriqueAutomate.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/GestionRegex.cpp",
+                      "src/Ifs.cpp",
+                      "src/LecteurOption.cpp",
+                      "src/LecteurScene.cpp",
+                      "src/Ligne.cpp",
+                      "src/Object.cpp",
+                      "src/ResultatIfs.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Tangentes.cpp",
+                      "src/Transition.cpp",
+                      "src/Triangle.cpp",
+                      "src/Uv.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/39a62eb04970a56358b5af6aabc2fa82/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/Release/Fractal.exe",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/Release/Fractal.lib",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/Release/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Carre.h",
+                      "src/ConstructeurAutomate.h",
+                      "src/ConstructeurAutomateClassique.h",
+                      "src/ConstructeurCarre.h",
+                      "src/ConstructeurLigne.h",
+                      "src/ConstructeurObject.h",
+                      "src/ConstructeurTriangle.h",
+                      "src/Etat.h",
+                      "src/FabriqueAutomate.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/GestionRegex.h",
+                      "src/Ifs.h",
+                      "src/LecteurOption.h",
+                      "src/LecteurScene.h",
+                      "src/Ligne.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/ResultatIfs.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Tangentes.h",
+                      "src/Transition.h",
+                      "src/Triangle.h",
+                      "src/Uv.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Carre.cpp",
+                      "src/ConstructeurAutomateClassique.cpp",
+                      "src/ConstructeurCarre.cpp",
+                      "src/ConstructeurLigne.cpp",
+                      "src/ConstructeurTriangle.cpp",
+                      "src/Etat.cpp",
+                      "src/FabriqueAutomate.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/GestionRegex.cpp",
+                      "src/Ifs.cpp",
+                      "src/LecteurOption.cpp",
+                      "src/LecteurScene.cpp",
+                      "src/Ligne.cpp",
+                      "src/Object.cpp",
+                      "src/ResultatIfs.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Tangentes.cpp",
+                      "src/Transition.cpp",
+                      "src/Triangle.cpp",
+                      "src/Uv.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/39a62eb04970a56358b5af6aabc2fa82/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/MinSizeRel/Fractal.exe",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/MinSizeRel/Fractal.lib",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/MinSizeRel/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Carre.h",
+                      "src/ConstructeurAutomate.h",
+                      "src/ConstructeurAutomateClassique.h",
+                      "src/ConstructeurCarre.h",
+                      "src/ConstructeurLigne.h",
+                      "src/ConstructeurObject.h",
+                      "src/ConstructeurTriangle.h",
+                      "src/Etat.h",
+                      "src/FabriqueAutomate.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/GestionRegex.h",
+                      "src/Ifs.h",
+                      "src/LecteurOption.h",
+                      "src/LecteurScene.h",
+                      "src/Ligne.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/ResultatIfs.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Tangentes.h",
+                      "src/Transition.h",
+                      "src/Triangle.h",
+                      "src/Uv.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Carre.cpp",
+                      "src/ConstructeurAutomateClassique.cpp",
+                      "src/ConstructeurCarre.cpp",
+                      "src/ConstructeurLigne.cpp",
+                      "src/ConstructeurTriangle.cpp",
+                      "src/Etat.cpp",
+                      "src/FabriqueAutomate.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/GestionRegex.cpp",
+                      "src/Ifs.cpp",
+                      "src/LecteurOption.cpp",
+                      "src/LecteurScene.cpp",
+                      "src/Ligne.cpp",
+                      "src/Object.cpp",
+                      "src/ResultatIfs.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Tangentes.cpp",
+                      "src/Transition.cpp",
+                      "src/Triangle.cpp",
+                      "src/Uv.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/39a62eb04970a56358b5af6aabc2fa82/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+            "name": "Fractal",
+            "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/RelWithDebInfo/Fractal.exe",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/RelWithDebInfo/Fractal.lib",
+                  "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bin/RelWithDebInfo/Fractal.pdb"
+                ],
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/Carre.h",
+                      "src/ConstructeurAutomate.h",
+                      "src/ConstructeurAutomateClassique.h",
+                      "src/ConstructeurCarre.h",
+                      "src/ConstructeurLigne.h",
+                      "src/ConstructeurObject.h",
+                      "src/ConstructeurTriangle.h",
+                      "src/Etat.h",
+                      "src/FabriqueAutomate.h",
+                      "src/FabriqueObject.h",
+                      "src/FenetrePrincipal.h",
+                      "src/GestionRegex.h",
+                      "src/Ifs.h",
+                      "src/LecteurOption.h",
+                      "src/LecteurScene.h",
+                      "src/Ligne.h",
+                      "src/Object.h",
+                      "src/Observateur.h",
+                      "src/ResultatIfs.h",
+                      "src/Scene.h",
+                      "src/SceneControleur.h",
+                      "src/Shader.h",
+                      "src/Sujet.h",
+                      "src/Tangentes.h",
+                      "src/Transition.h",
+                      "src/Triangle.h",
+                      "src/Uv.h",
+                      "src/Vertex.h",
+                      "src/Vertices.h",
+                      "CMakeLists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/bibliotheques/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/Carre.cpp",
+                      "src/ConstructeurAutomateClassique.cpp",
+                      "src/ConstructeurCarre.cpp",
+                      "src/ConstructeurLigne.cpp",
+                      "src/ConstructeurTriangle.cpp",
+                      "src/Etat.cpp",
+                      "src/FabriqueAutomate.cpp",
+                      "src/FabriqueObject.cpp",
+                      "src/FenetrePrincipal.cpp",
+                      "src/GestionRegex.cpp",
+                      "src/Ifs.cpp",
+                      "src/LecteurOption.cpp",
+                      "src/LecteurScene.cpp",
+                      "src/Ligne.cpp",
+                      "src/Object.cpp",
+                      "src/ResultatIfs.cpp",
+                      "src/Scene.cpp",
+                      "src/SceneControleur.cpp",
+                      "src/Shader.cpp",
+                      "src/Sujet.cpp",
+                      "src/Tangentes.cpp",
+                      "src/Transition.cpp",
+                      "src/Triangle.cpp",
+                      "src/Uv.cpp",
+                      "src/Vertex.cpp",
+                      "src/Vertices.cpp",
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Fractal.exe",
+                "linkFlags": "/NODEFAULTLIB:\"MSVCRT\" /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "glu32.lib opengl32.lib ..\\bibliotheques\\lib\\glfw3.lib ..\\bibliotheques\\lib\\glew32.lib ..\\bibliotheques\\lib\\armadillo.lib ..\\bibliotheques\\lib\\lapack_win64_MT.lib ..\\bibliotheques\\lib\\blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Fractal",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakeLists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/39a62eb04970a56358b5af6aabc2fa82/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/bonfi/Documents/GitHub/-WIP-FractalRender",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.9250845402495236",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

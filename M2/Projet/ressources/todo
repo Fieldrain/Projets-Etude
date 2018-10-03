@@ -1,0 +1,28 @@
+dans calcul normal prendre max pour eclairer au dessus et en dessous
+
+calcul adresse a partir position x,y
+
+arbre inverse si  appartient [0,1] 0 si appartient pas 1 
+si 4 appartient arrete
+
+pour calcul indice dans vbo a0 * profondeur^n-1 + a1 * profondeur^n-1
+
+dans vertex 
+    envoyer valeur U,V
+
+dans fragment 
+    prendre U,V qui seront interpoler et chercher adresse
+    faire moyenne tangente si plusieurs indice
+
+faire tableau [u,v] avec pas 1/2^n avec dans chaque case adresse (algo inverse qui renvoie une liste d'indice car plusieurs tangentes possible) /fait/
+
+pour connaitre u,v appliquer automate mais pas plongement avec point de controle mais dans R2 /fait/
+
+10-11
+|   |
+00-01
+
+0 0.5 1 0   0.5 1   0 0.5 1
+0 0   0 0.5 0.5 0.5 1 1   1
+
+faire test dans r2  avec transfo contraction homogene

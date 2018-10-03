@@ -1,0 +1,6 @@
+scene : "ressources/sceneR2.txt";
+iteration : 4;
+repere : 3D;
+fragShader : "ressources/shader/PhongShader.frag";
+vertShader : "ressources/shader/PhongShader.vert";
+textures : "ressources/textures/";
