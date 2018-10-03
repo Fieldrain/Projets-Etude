@@ -1,1 +1,0 @@
-clique gauche sur un disque puis glisser pour bouger le disque
