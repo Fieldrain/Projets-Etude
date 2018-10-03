@@ -1,0 +1,287 @@
+<?xml version="1.0" ?>
+
+<Story>
+	<NbChapitre>22</NbChapitre>
+
+  <Chapitre numero="0" nom="">
+    <Ecran type="Accueil" code="00">
+      <Script>
+        Metro
+      </Script>
+      <Choices nbChoix="2" type="choix">
+        <Choix numero="1" position="1" ecranSuivant="">Continuer</Choix>
+        <Choix numero="2" position="2" ecranSuivant="10">Nouvelle Partie</Choix>
+        <Choix numero="3" position="3" ecranSuivant="">Credits</Choix>
+      </Choices>
+    </Ecran>
+  </Chapitre>
+  
+	<Chapitre numero="1" nom="Intro_Chateau">
+		<Ecran type="Histoire" code="10">
+			<Script>
+				Après avoir traversé une forêt étonnamment paisible, vous arrivez au beau milieu d'un village dans lequel un homme vous aborde. 
+				"Ho hé étranger, es-tu un de ces jeunes fou prêt à mettre votre vie en jeu en espérant trouver le trésor de l''ancien château du duché de Lapalud ?"
+			</Script>
+			<Choices nbChoix="2" type="choix">
+				<Choix numero="1" position="1" ecranSuivant="10A">Oui oui, je suis de ceux la !</Choix>
+				<Choix numero="2" position="2" ecranSuivant="10B">Non</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="10A">
+			<Script>
+				"Bon j'imagine que ce n’est pas la peine de tenter de te dissuader...
+				Quel est ton nom ? Non pas que ça m'intéresse vraiment mais il faut bien graver un nom sur ta future tombe !"
+			</Script>
+			<Choices nbChoix="1" type="chaine">
+				<Choix numero="1" position="2" ecranSuivant="10AA">Votre nom: </Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" choix="10B">
+			<Script>
+				"Alors va-t'en tu gênes !"
+				C'est sur cette merveilleuse phrase que votre histoire se termine.
+			</Script>
+			<Choices nbChoix="1" type="GameOver">
+				<Choix numero="1" position="2" ecranSuivant="-1">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" choix="10AA">
+			<Script variable="nom">
+				"Très bien mon cher #nom, je vais t'accompagner au château, par contre je te laisse à l'entrée, pas particulièrement envie de mettre ma vie en danger pour des prunes gamins !"
+				En entrant dans le château vous vous retrouvez dans un hall sombre éclairé par d'étranges torches brûlant d'un feu violet, il vous est impossible de voir plus loin que le bout de vos pieds, cependant, vous avez l'impression d'être observé pire, que quelques chose se déplace dans l'ombre...
+				N'écoutant que votre courage (ou votre stupidité c'est au choix) vous mettez un pied devant l'autre et...
+			</Script>
+			<Choices nbChoix="1" type="FinChapitre">
+				<Choix numero="1" position="2" ecranSuivant="20">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+	</Chapitre>
+
+	<Chapitre numero="2" nom="Intro_Metro">
+		<Ecran type="Histoire" code="20">
+			<Script variable="nom">
+				" #nom ... ... "
+				Il semble qu’on vous appelle, mais la voix est étouffée, vous avez du mal à comprendre.
+				"Mais réveille-toi bordel, #nom !"
+				La voix est bien plus compréhensible, le ton indique que la personne est de plus en plus en colère.
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="21">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="21">
+			<Script>
+				Cette voix, vous la reconnaissez... Mais oui c'est celle de votre père !!
+				Vos yeux s'ouvrent d''un coup, par chance, il fait suffisament sombre pour ne pas être ébloui.
+				Votre regard se balade dans le vague, vous distinguez vos effets personnels, est-ce votre chambre ?
+				"Enfin... Prends ton temps hein, enfin bref, je t'attends dans le couloir, dépêche-toi."
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="22">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="22">
+			<Script>
+				Vous vous levez de votre lit.
+				Bien que votre chambre soit faiblement éclairée vous vous regardez dans le miroir à coté de votre lit.
+			</Script>
+			<Choices nbChoix="3" type="choix">
+				<Choix numero="1" position="1" ecranSuivant="22A">Allumer la lumière</Choix>
+				<Choix numero="2" position="2" ecranSuivant="22B">Observer la pièce</Choix>
+				<Choix numero="3" position="3" ecranSuivant="23">Quitter la pièce</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="22A">
+			<Script>
+				La lumière est maintenant allumée
+			</Script>
+			<Choices nbChoix="2" type="choix">
+				<Choix numero="1" position="1" ecranSuivant="22AA">Observer la pièce</Choix>
+				<Choix numero="2" position="2" ecranSuivant="23">Quitter la pièce</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="22B">
+			<Script>
+				Il vous est impossible de distinguer quoi que ce soit, moins que dans le château de votre rêve.
+			</Script>
+			<Choices nbChoix="2" type="choix">
+				<Choix numero="1" position="1" ecranSuivant="22A">Allumer la lumière</Choix>
+				<Choix numero="2" position="2" ecranSuivant="23">Quitter la pièce</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="22AA">
+			<Script>
+				La pièce est petite, plutôt en désordre avec votre lit dans le fond, une toute petite table sur laquelle la lampe de bureau que vous venez d'allumer trône.
+				Sur la table un briquet en forme de balle, un plan usagé, quelques livres abîmés.
+				Dans un coin est posé une vieille guitare sèche griffée, sur les murs sont accrochés des cartes postales et dans l'autre coin une vieille armoire récupérée on ne sait où, rafistolée tant bien que mal.
+			</Script>
+			<Choices nbChoix="1" type="choix">
+				<Choix numero="1" position="2" ecranSuivant="23">Quitter la pièce</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="23">
+			<Script>
+				En sortant de votre chambre, un groupe de quatres hommes vous salue, votre père vous attend un peu plus loin, sans un mot vous vous mettez à le suivre.
+				En arpentant les couloirs, vous croisez un homme tentant d'occuper sa fille en lui demandant de dessiner la maison dans laquelle elle souhaiterait vivre avec ses parents, et une femme visiblement mécontente de nettoyer le sol.
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="24">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="24">
+			<Script>
+				En quittant le couloir vous tombez sur une longue file d'attente devant la lourde porte de ce qui sert d''hôpital, probablement des parents venus demander des nouvelles de leurs maris,fils etc... 
+				Suite à la dernière attaque des Sombres.
+				Quelques "soldats" mal équipés tentent de les empêcher d'entrer.
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="25">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="25">
+			<Script>
+				Votre père frappe trois sur la porte en fer rouillée.
+				Une sorte de visière s'ouvre, derrière un homme semble le reconnaître.
+				Pendant ce temps une femme vous interpelle, elle est visiblement affolée, vous demande si vous avez des nouvelles du front, si son mari se trouve derrière cette porte.
+				Pas le temps de répondre, votre père vous pose la main sur l'épaule vous indiquant de le suivre.
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="26">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="26">
+			<Script>
+				Vous entrez dans une sorte de bureau, la pièce est un poil plus grande que votre chambre, à votre gauche sont accrochées plusieurs blouses jaunies par le temps et tachées de sang.
+				Trois hommes sont également présents, ils racontent que l''avant-poste a été attaqué par les Sombres il y a quelques heures et que plus aucun des gars stationnés n'est en mesure de répondre de quoi que ce soit.
+				"Enfin tu verras par toi-même Soukhoï..."
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="27">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="27">
+			<Script>
+				L'un d'eux ouvre une petite porte en bois dans le fond de la pièce, immédiatement l'odeur de la mort emplit vos narines, bien que n'ayant pas envie de voir ce qu'il y a dans la pièce suivante, vous continuez de suivre votre père.
+				L'odeur est de plus en plus forte, vous entendez des plaintes venant de derrières les draps blancs tachés servant à séparer les lits.
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="28">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="28">
+			<Script>
+				Certains sont arrachés, exposant quelques hommes le regard dans le vague, des bandages un peu partout tandis que d'autres se mettent à hurler en vous voyant passer.
+				D'autres encore ne bougent pas, il sont morts, tout simplement.
+				Le médecin vous accompagne vers la pièce suivant correpondant à l'entrée de votre station tout en expliquant à votre père que la station ne tiendrait pas longtemps si on ne résoud pas le problème des Sombres.
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="29">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="29">
+			<Script>
+				L'entrée de la station est gardée par deux hommes armèes et visiblement tendues.
+				Apres un court rapport à votre père, un bruit sourd fait sont apparition, quelqu'un semble frapper à la lourde porte en acier de la station...
+				Un des deux hommes arme son AK-47 le seconde exprime sa crainte que ce ne soit des Nosalis ou des Sombres mais Soukhoï les interromps leur rappelant que les monstres ne frappent pas aux portes avant d'entrer.
+			</Script>
+			<Choices nbChoix="1" type="suite">
+				<Choix numero="1" position="2" ecranSuivant="210">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="210" res="Suite">
+			<Script>
+				Il ordonne l'ouverture de la porte.
+				Une fois la porte suffisamment ouverte, vous reconnaissez Hunter, un Ranger de Polis que vous connaissez depuis un longtemps.
+				Ce dernier explique venir suite aux rumeurs d'attaque de VDNKh par "des créatures nommées Sombres" dont Polis a eu vent.
+				Son rôle est de vérifier si les faits sont bien réels.
+			</Script>
+			<Choices nbChoix="1">
+				<Choix numero="1" position="2" ecranSuivant="211">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="211" res="Suite">
+			<Script loot="true">
+				Les lumières s'éteignent, la lumière rouge indiquant un danger s'allumer, le silence s'installe...
+				Votre père ouvre rapidement un casier et vous tend un revolver usé et trois douzaines de balles.
+				Des Nosalis sortent des conduits d'aerations ...
+			</Script>
+			
+			<Loot>
+				<Objet>
+					<Nom>Revolver</Nom>
+					<Quantite>1</Quantite>
+				</Objet>
+				<Objet>
+					<Nom>Balles de Revolver</Nom>
+					<Quantite>36</Quantite>
+				</Objet>
+			</Loot>
+			
+			<Choices nbChoix="1">
+				<Choix numero="1" position="2" ecranSuivant="212">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Combat" code="212" res="Suite">
+      <Adversaires>
+        <Adversaire nb="3">Nosalis</Adversaire>
+      </Adversaires>
+			<Victoire ecranSuivant="213"></Victoire>
+			<Defaite ecranSuivant="212D"></Defaite>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="212D" res="GameOver">
+			<Script>
+				Vous avez échoué... Vous êtes faible...
+				Vous êtes nul... Mais je vous propose de rejouer !
+			</Script>
+			<Choices nbChoix="1" >
+				<Choix numero="1" position="2" ecranSuivant="-1">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="213" res="Suite">
+			<Script>
+				"Des Nosalis ?! Ici ?!"
+				"Probablement attirés par l'odeur du sang de l'hôpital !"
+				"Mais ils ne viennent jamais aussi proche de la station..."
+				Un homme entre en courant dans la pièce en hurlant.
+				"Des Sombres, des Sombres ont attaqué l'avant-poste !"
+			</Script>
+			<Choices nbChoix="1" >
+				<Choix numero="1" position="2" ecranSuivant="214">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+		
+		<Ecran type="Histoire" code="213" res="FinChapitre">
+			<Script>
+				Sans attendre, vous courez en direction de l'avant poste.
+				Celui-ci est criblé de balle, les soldats sont à terre, certains morts, d'autres totalement déconnectés par la peur.
+				Hunter décide de partir par le tunnel par lequel les Sombres sont arrivés, il vous fait promettre que si dans deux jours il n'est pas revenu, vous partirez pour Polis expliquer au Conseil la menace que représente les Sombres.
+				Il vous remet également sa plaque d''identification.
+			</Script>
+			<Choices nbChoix="1" >
+				<Choix numero="1" position="2" ecranSuivant="30">Appuyer sur entrer</Choix>
+			</Choices>
+		</Ecran>
+
+	</Chapitre>
+
+</Story>

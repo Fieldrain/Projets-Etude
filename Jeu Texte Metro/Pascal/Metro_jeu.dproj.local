@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/11/14 14:50:25.626.pas,C:\Users\Fieldrain_2\Documents\RAD Studio\Projets\gameplay_metro.pas=C:\Users\Fieldrain_2\Documents\RAD Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/11/14 14:50:38.845.dproj,C:\Users\Fieldrain_2\Documents\RAD Studio\Projets\Metro_jeu.dproj=C:\Users\Fieldrain_2\Documents\RAD Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2013/11/18 14:05:48.000.936,=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/11/18 14:06:03.000.919,\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\personnage.pas=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/11/18 14:06:19.000.810,=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/11/18 14:06:37.000.262,\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\ennemi.pas=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/11/21 08:24:14.000.480,=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/11/21 08:24:28.000.198,\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\histoire.pas</Transaction>
+    <Transaction>2013/11/21 08:25:38.000.307,\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\histoire.pas=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\histoire_texte.pas</Transaction>
+    <Transaction>2013/11/21 08:59:38.000.696,\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\histoire_texte.pas=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\scenario.pas</Transaction>
+    <Transaction>2013/11/21 09:25:16.000.122,=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/11/21 09:25:33.000.024,\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\Unit1.pas=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\bonfilsa\Téléchargements\Projets\gestion_inventaire.pas</Transaction>
+    <Transaction>2013/12/10 20:26:43.411.pas,C:\Users\Fieldrain_2\Desktop\Projets\save_chargement.pas=C:\Users\Fieldrain_2\Desktop\Projets\Unit1.pas</Transaction>
+    <Transaction>2013/12/14 18:01:11.612.pas,C:\Users\Fieldrain_2\Desktop\Projets\Unit1.pas=C:\Users\Fieldrain_2\Desktop\Projets\machaine.pas</Transaction>
+    <Transaction>2013/12/14 18:01:25.534.pas,C:\Users\Fieldrain_2\Desktop\Projets\machaine.pas=C:\Users\Fieldrain_2\Desktop\Projets\montype.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ennemi.pas"/>
+    <File Path="GestionEcran.pas"/>
+    <File Path="gameplay_metro.pas"/>
+    <File Path="gestion_inventaire.pas"/>
+    <File Path="personnage.pas"/>
+    <File Path="scenario.pas"/>
+    <File Path="save_chargement.pas"/>
+    <File Path="montype.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

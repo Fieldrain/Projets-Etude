@@ -1,0 +1,15 @@
+﻿- Ajouter ecran fin 
+- Constructeur joueur init valeur par def
+
+-Supprimer type des choix et les ajouter dans ecran avec attr res
+
+
+- Faire les layouts
+- Systeme sauvegarde
+- Systeme combat
+- Systeme echange
+- Creer tableau public avec les pointeur sur les get et set des objets
+
+- Changer retour des ecran pour des set set uint8_t string
+- Changer uint8 de vie energie et xp en 16
+- Possible bug avec les requetes xpath ex "/Ecran[@code=" + code + "]" tester '/Ecran[@code="' + code + '"]'

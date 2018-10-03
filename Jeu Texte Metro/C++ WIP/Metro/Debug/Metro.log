@@ -1,0 +1,252 @@
+﻿  XmlReader.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\xmlreader.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\xmlreader.cpp(76): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+  Layout_Histoire.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\layout_histoire.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Layout_Combat.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\layout_combat.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Layout_Accueil.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\layout_accueil.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Layout.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\layout.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Jeu.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\jeu.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\sujet.h(7): error C2065: 'IObservateur': undeclared identifier
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\sujet.h(7): error C2059: syntax error: '>'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\sujet.h(7): error C2976: 'std::set': too few template arguments
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\set(43): note: see declaration of 'std::set'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\sujet.h(10): error C2061: syntax error: identifier 'IObservateur'
+  Fabrique_Layout.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(7): error C2259: 'ConstructeurLayoutCombat': cannot instantiate abstract class
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(7): note: due to following members:
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(7): note: 'void *Constructeur::Construit(int,...)': is abstract
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur.h(7): note: see declaration of 'Constructeur::Construit'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(8): error C2259: 'ConstructeurLayoutHistoire': cannot instantiate abstract class
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(8): note: due to following members:
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(8): note: 'void *Constructeur::Construit(int,...)': is abstract
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur.h(7): note: see declaration of 'Constructeur::Construit'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(9): error C2259: 'ConstructeurLayoutAccueil': cannot instantiate abstract class
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(9): note: due to following members:
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(9): note: 'void *Constructeur::Construit(int,...)': is abstract
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur.h(7): note: see declaration of 'Constructeur::Construit'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(14): error C2664: 'void *Constructeur::Construit(int,...)': cannot convert argument 1 from 'DataEcran *' to 'int'
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_layout.cpp(14): note: There is no context in which this conversion is possible
+  Fabrique_Entite.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_entite.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_entite.cpp(12): error C2660: 'Constructeur::Construit': function does not take 0 arguments
+  Fabrique_Data.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_data.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_data.cpp(13): error C2664: 'void *Constructeur::Construit(int,...)': cannot convert argument 1 from 'std::string' to 'int'
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique_data.cpp(13): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  Fabrique.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\fabrique.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+  DataPNJ.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\datapnj.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+  DataObjet.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataobjet.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+  DataEcranHistoire.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecranhistoire.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecranhistoire.cpp(30): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecranhistoire.cpp(32): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecranhistoire.cpp(37): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::data': non-standard syntax; use '&' to create a pointer to member
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecranhistoire.cpp(45): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::data': non-standard syntax; use '&' to create a pointer to member
+  DataEcranCombat.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecrancombat.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecrancombat.cpp(23): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::data': non-standard syntax; use '&' to create a pointer to member
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecrancombat.cpp(29): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecrancombat.cpp(29): error C2228: left of '.data' must have class/struct/union
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecrancombat.cpp(32): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecrancombat.cpp(32): error C2228: left of '.data' must have class/struct/union
+  DataEcranAccueil.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecranaccueil.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  DataEcran.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecran.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\dataecran.cpp(7): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+  Data.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\data.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+  Constructeur_LayoutHistoire.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_layouthistoire.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_layouthistoire.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Constructeur_LayoutCombat.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_layoutcombat.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_layoutcombat.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Constructeur_Layout.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_layout.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_layout.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Generating Code...
+  Compiling...
+  Constructeur_Entite.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_entite.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_entite.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+  Constructeur_DataEcranHistoire.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_dataecranhistoire.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_dataecranhistoire.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Constructeur_DataEcranCombat.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_dataecrancombat.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_dataecrancombat.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Constructeur_DataEcranAccueil.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_dataecranaccueil.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_dataecranaccueil.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Constructeur_Data.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_data.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur_data.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+  ConstructeurLayoutAccueil.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeurlayoutaccueil.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeurlayoutaccueil.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Constructeur.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\constructeur.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+  Chapitre.cpp
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(1): error C2859: C:\Users\Adrien\Documents\Visual Studio 2015\Projects\Metro\Metro\Debug\vc140.idb is not the idb file that was used when this precompiled header was created, recreate the precompiled header.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\lex_token.h(120): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xpath_syntax.h(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(22): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(39): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(45): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(46): error C2440: '=': cannot convert from 'Data *' to 'DataEcran *'
+  c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(46): note: Cast from base to derived requires dynamic_cast or static_cast
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(49): error C3867: 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Kty=TiXmlElement *,
+              _Pr=std::less<TiXmlElement *>,
+              _Alloc=std::allocator<TiXmlElement *>
+          ]
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(57): error C2061: syntax error: identifier 'FabriqueDataEcran'
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(57): error C2612: trailing ')' illegal in base/member initializer list
+c:\users\adrien\documents\visual studio 2015\projects\metro\metro\chapitre.cpp(72): fatal error C1004: unexpected end-of-file found
+  Generating Code...

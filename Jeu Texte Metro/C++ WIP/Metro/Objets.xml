@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Objets>
+  <Objet categorie="Arme" nom="Revolver">
+    <Statistique>
+      <Degat></Degat>
+      <DegatCritique></DegatCritique>
+    </Statistique>
+    <Munition>Balles de Revolver</Munition>
+  </Objet>
+
+  <Objet categorie="Munition" nom="Balles de Revolver"/>
+
+</Objets>

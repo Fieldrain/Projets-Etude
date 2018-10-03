@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Layout">
+      <UniqueIdentifier>{1d493a89-3f18-4e41-ac54-8d29d3ca1dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Layout">
+      <UniqueIdentifier>{f9fa2d4f-68be-4aa5-93a7-6ee1c913bb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Xml">
+      <UniqueIdentifier>{8bab4b65-8e52-4909-b5c4-dd1efccd7e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Xml">
+      <UniqueIdentifier>{e9761485-1e20-4f02-a102-29b8da59617b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controleur">
+      <UniqueIdentifier>{6324de73-5991-43af-8371-7f6a3b5e0b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controleur">
+      <UniqueIdentifier>{55b79b97-558e-481c-8896-a947da7a83cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vue">
+      <UniqueIdentifier>{a421da38-2602-4e4f-8903-4c20f7eb930e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Personnages">
+      <UniqueIdentifier>{f33daf84-24ed-446a-b8c9-b95c8f9a1726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Personnages">
+      <UniqueIdentifier>{b52eff05-8c33-4f2a-b741-2a7feadd16d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HeaderSys">
+      <UniqueIdentifier>{b363a661-b8e1-4530-9c3e-9f81b27c9fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSys">
+      <UniqueIdentifier>{9adaf73b-ab69-4711-bd8e-6ecb1c828629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GestionConsole">
+      <UniqueIdentifier>{15125064-5678-4c47-b377-f47f82f9f13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GestionConsole">
+      <UniqueIdentifier>{fb180916-51d0-43ab-aa24-165735de2981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventaire/Objet">
+      <UniqueIdentifier>{533e4a57-823c-44e6-8d0b-9f2c46f7add3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventaire/Objet">
+      <UniqueIdentifier>{97988a76-b8bf-42c5-9da5-d6ed6234c145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{5e497e5b-98d9-4d33-ad00-a9d6d3e0680f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data\DataEcran">
+      <UniqueIdentifier>{94e2b8c0-319b-49ee-b861-718de42273ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{8ee07949-57c6-4542-a3db-2b62622d7a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\DataEcran">
+      <UniqueIdentifier>{3fcdaa0c-1ac1-4e57-a406-251b1be6eb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\DataObjet">
+      <UniqueIdentifier>{963755de-1617-4e62-acf4-2d722f7d10fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data\DataObjet">
+      <UniqueIdentifier>{642cc2b7-0487-47cf-92ea-ef1c0bee1541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fabrique">
+      <UniqueIdentifier>{019c2ff3-3d26-4846-bec9-cc261975f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fabrique">
+      <UniqueIdentifier>{5bafe3a2-7862-491e-9cda-23b19114c40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fabrique\Fabrique_Data">
+      <UniqueIdentifier>{23125e30-1ebf-4e23-8d1a-71c7a057d200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fabrique\Fabrique_Data">
+      <UniqueIdentifier>{ae8dbd1f-cb53-4f2b-bb13-67e9fcce7564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fabrique\Fabrique_Entite">
+      <UniqueIdentifier>{cb83c16a-988b-4623-b63f-115cbb9fdca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fabrique\Fabrique_Entite">
+      <UniqueIdentifier>{621bd593-ece0-413b-ad9c-9568f352e6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\DataEntite">
+      <UniqueIdentifier>{a4e25bdd-64a9-43ec-9937-dcf2254f09fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data\DataEntite">
+      <UniqueIdentifier>{5dfc15e9-5a3d-4e94-94a0-1d7d7e65fe50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fabrique\Fabrique_Ecran">
+      <UniqueIdentifier>{5eeb820c-3013-491c-bcdb-d9817a647ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fabrique\Fabrique_Ecran">
+      <UniqueIdentifier>{75e8425f-0e60-403e-aeab-61b1bb1c4ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ecran">
+      <UniqueIdentifier>{4f5a2346-0615-4a28-8178-f976e08b2532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ecran">
+      <UniqueIdentifier>{7b8d20fa-36df-464e-a65b-d3c049c066b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chapitre">
+      <UniqueIdentifier>{d90722df-edda-435f-a51c-0acbee5da372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapitre">
+      <UniqueIdentifier>{18d97c32-65ee-49b2-aa52-9324c7532cfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataEcranCombat.h">
+      <Filter>Header Files\Data\DataEcran</Filter>
+    </ClInclude>
+    <ClInclude Include="DataEcranHistoire.h">
+      <Filter>Header Files\Data\DataEcran</Filter>
+    </ClInclude>
+    <ClInclude Include="DataEcran.h">
+      <Filter>Header Files\Data\DataEcran</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout_Accueil.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout_Combat.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout_Histoire.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlReader.h">
+      <Filter>Header Files\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Sujet.h">
+      <Filter>Header Files\Controleur</Filter>
+    </ClInclude>
+    <ClInclude Include="Observateur.h">
+      <Filter>Header Files\Vue</Filter>
+    </ClInclude>
+    <ClInclude Include="Entite.h">
+      <Filter>Header Files\Personnages</Filter>
+    </ClInclude>
+    <ClInclude Include="Joueur.h">
+      <Filter>Header Files\Personnages</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\HeaderSys</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\HeaderSys</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\HeaderSys</Filter>
+    </ClInclude>
+    <ClInclude Include="Fenetre.h">
+      <Filter>Header Files\GestionConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\GestionConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_DataEcranHistoire.h">
+      <Filter>Header Files\Fabrique\Fabrique_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_DataEcranCombat.h">
+      <Filter>Header Files\Fabrique\Fabrique_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataEcranAccueil.h">
+      <Filter>Header Files\Data\DataEcran</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_DataEcranAccueil.h">
+      <Filter>Header Files\Fabrique\Fabrique_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_Entite.h">
+      <Filter>Header Files\Fabrique\Fabrique_Entite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fabrique_Entite.h">
+      <Filter>Header Files\Fabrique\Fabrique_Entite</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventaire.h">
+      <Filter>Header Files\Inventaire/Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="Objet.h">
+      <Filter>Header Files\Inventaire/Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Fabrique_Data.h">
+      <Filter>Header Files\Fabrique\Fabrique_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataObjet.h">
+      <Filter>Header Files\Data\DataObjet</Filter>
+    </ClInclude>
+    <ClInclude Include="Fabrique.h">
+      <Filter>Header Files\Fabrique</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur.h">
+      <Filter>Header Files\Fabrique</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_Data.h">
+      <Filter>Header Files\Fabrique\Fabrique_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_DataObjet.h">
+      <Filter>Header Files\Fabrique\Fabrique_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataObjetArme.h">
+      <Filter>Header Files\Data\DataObjet</Filter>
+    </ClInclude>
+    <ClInclude Include="DataObjetSoin.h">
+      <Filter>Header Files\Data\DataObjet</Filter>
+    </ClInclude>
+    <ClInclude Include="DataEntite.h">
+      <Filter>Header Files\Data\DataEntite</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_Ecran.h">
+      <Filter>Header Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_EcranAccueil.h">
+      <Filter>Header Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_EcranCombat.h">
+      <Filter>Header Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructeur_EcranHistoire.h">
+      <Filter>Header Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Fabrique_Ecran.h">
+      <Filter>Header Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Ecran.h">
+      <Filter>Header Files\Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Ecran_Accueil.h">
+      <Filter>Header Files\Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Ecran_Combat.h">
+      <Filter>Header Files\Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Ecran_Histoire.h">
+      <Filter>Header Files\Ecran</Filter>
+    </ClInclude>
+    <ClInclude Include="Jeu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapitre.h">
+      <Filter>Header Files\Chapitre</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataEcranCombat.cpp">
+      <Filter>Source Files\Data\DataEcran</Filter>
+    </ClCompile>
+    <ClCompile Include="DataEcranHistoire.cpp">
+      <Filter>Source Files\Data\DataEcran</Filter>
+    </ClCompile>
+    <ClCompile Include="DataEcran.cpp">
+      <Filter>Source Files\Data\DataEcran</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>Source Files\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout_Accueil.cpp">
+      <Filter>Source Files\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout_Combat.cpp">
+      <Filter>Source Files\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout_Histoire.cpp">
+      <Filter>Source Files\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlReader.cpp">
+      <Filter>Source Files\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Sujet.cpp">
+      <Filter>Source Files\Controleur</Filter>
+    </ClCompile>
+    <ClCompile Include="Entite.cpp">
+      <Filter>Source Files\Personnages</Filter>
+    </ClCompile>
+    <ClCompile Include="Joueur.cpp">
+      <Filter>Source Files\Personnages</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\SourceSys</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\GestionConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_DataEcranHistoire.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_DataEcranCombat.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataEcranAccueil.cpp">
+      <Filter>Source Files\Data\DataEcran</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_DataEcranAccueil.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_Entite.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Entite</Filter>
+    </ClCompile>
+    <ClCompile Include="Fabrique_Entite.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Entite</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventaire.cpp">
+      <Filter>Source Files\Inventaire/Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="Objet.cpp">
+      <Filter>Source Files\Inventaire/Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Fabrique_Data.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Metro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataObjet.cpp">
+      <Filter>Source Files\Data\DataObjet</Filter>
+    </ClCompile>
+    <ClCompile Include="Fabrique.cpp">
+      <Filter>Source Files\Fabrique</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur.cpp">
+      <Filter>Source Files\Fabrique</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_Data.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_DataObjet.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataObjetArme.cpp">
+      <Filter>Source Files\Data\DataObjet</Filter>
+    </ClCompile>
+    <ClCompile Include="DataObjetSoin.cpp">
+      <Filter>Source Files\Data\DataObjet</Filter>
+    </ClCompile>
+    <ClCompile Include="DataEntite.cpp">
+      <Filter>Source Files\Data\DataEntite</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_Ecran.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_EcranCombat.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_EcranHistoire.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructeur_EcranAccueil.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Fabrique_Ecran.cpp">
+      <Filter>Source Files\Fabrique\Fabrique_Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Ecran.cpp">
+      <Filter>Source Files\Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Ecran_Accueil.cpp">
+      <Filter>Source Files\Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Ecran_Combat.cpp">
+      <Filter>Source Files\Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Ecran_Histoire.cpp">
+      <Filter>Source Files\Ecran</Filter>
+    </ClCompile>
+    <ClCompile Include="Jeu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapitre.cpp">
+      <Filter>Source Files\Chapitre</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Story.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Bestiaire.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Objets.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

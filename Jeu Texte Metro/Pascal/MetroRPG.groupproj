@@ -1,0 +1,36 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{D98A9DE9-8935-44C5-82D7-D9C6672CEB59}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Metro_jeu.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Metro_jeu">
+			<MSBuild Projects="Metro_jeu.dproj"/>
+		</Target>
+		<Target Name="Metro_jeu:Clean">
+			<MSBuild Targets="Clean" Projects="Metro_jeu.dproj"/>
+		</Target>
+		<Target Name="Metro_jeu:Make">
+			<MSBuild Targets="Make" Projects="Metro_jeu.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Metro_jeu"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Metro_jeu:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Metro_jeu:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Bestiaire>
+  <Entite nom="Nosalis">
+    <Statistique>
+      <Vie max=""></Vie>
+      <Energie max=""></Energie>
+
+      <Esquive></Esquive>
+      <Resistance></Resistance>
+      <Force></Force>
+      <Concentration></Concentration>
+      <Vitesse></Vitesse>
+      <Precision></Precision>
+      <Discretion></Discretion>
+    </Statistique>
+    
+    <LootTable>
+      <Objet quantite="" drop=""></Objet>
+    </LootTable>
+  </Entite>
+  
+  
+</Bestiaire>

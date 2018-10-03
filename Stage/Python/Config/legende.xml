@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<Donnees>
+    <Stations>
+        <Station nom="Trémouille" couleur="255,66,00"/>
+        <Station nom="Tarnier" couleur="255,66,00"/>
+        <Station nom="Péjoces" couleur="255,66,00"/>
+        <Station nom="Daix" couleur="255,66,00"/>
+        <Station nom="Transvaal" couleur="255,66,00"/>
+	<Station nom="Transvaal" couleur="255,00,00"/>
+    </Stations>
+
+    <Parametres>
+        <Parametre nom="Amb" couleur="00,00,00"/>
+        <Parametre nom="NO" couleur="00,00,00"/>
+        <Parametre nom="NO2" couleur="00,00,00"/>
+        <Parametre nom="NOx" couleur="00,00,00"/>
+        <Parametre nom="O3" couleur="00,00,00"/>
+        <Parametre nom="PM10" couleur="00,00,00"/>
+        <Parametre nom="PM2.5" couleur="00,00,00"/>
+    </Parametres>
+
+    <Groupes>
+	<NO>
+		<Groupe>Tarnier,Péjoces,Daix</Groupe>
+		<Groupe>Trémouille,Transvaal</Groupe>
+	</NO>
+	<NO2>
+		<Groupe>Tarnier,Péjoces,Daix</Groupe>
+		<Groupe>Trémouille,Transvaal</Groupe>
+	</NO2>
+	<Tarnier>
+		<Groupe>NO,NO2,NOx</Groupe>
+		<Groupe>PM10,PM2.5</Groupe>
+	</Tarnier>
+    </Groupes>
+
+</Donnees>
