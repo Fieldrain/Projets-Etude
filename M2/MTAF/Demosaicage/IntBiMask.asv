@@ -1,0 +1,10 @@
+function [ Output_RGB ] = IntBiMask( Image_CFA )
+[m,n] = size(Image_CFA);
+
+Output_RGB = zeros(m,n,3);
+
+Output_RGB(1:2:m,1:2:n,1) = zeros(m,n) + Image_CFA(1:2:m,1:2:n);
+Output_RGB(:,:,2) = zeros(m,n) + Image_CFA(1:m:2,2:n:2);
+Output_RGB(:,:,3) = zeros(m,n) + Image_CFA(2:m:2,2:n:2);
+
+

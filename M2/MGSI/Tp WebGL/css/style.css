@@ -1,0 +1,27 @@
+h1{
+	color: #1867b4;
+}
+
+#html5colorpicker{
+	height: 99.3%;
+	width: 3%;
+	position: relative;
+}
+
+.flex-container {
+	display: flex;
+	direction: ltr;
+	height: 600px;
+	width: 900px;
+}
+
+canvas {
+	background-color: #1867b4;
+}
+
+.flex-container img{
+	width: 8.2%;
+	height: 15%;
+	border: 1px black;
+	border-style: groove;
+}

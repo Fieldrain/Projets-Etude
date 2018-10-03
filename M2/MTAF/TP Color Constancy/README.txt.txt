@@ -1,0 +1,1 @@
+Pour obtenir les images résultat exécuter le fichier "main.m".

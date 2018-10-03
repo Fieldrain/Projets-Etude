@@ -14,14 +14,15 @@ if (UNIX)
 endif (UNIX)
 
 if(WIN32)
-    set(GLUT_glut_LIBRARY C:/LibExterne/lib/x64/freeglut.lib)
+    set(GLUT_glut_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/freeglut.lib)
+
     set(ARMA_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/armadillo.lib)
     set(APACK_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/lapack_win64_MT.lib)
     set(ABLAS_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/bibliotheques/lib/blas_win64_MT.lib)
 endif(WIN32)
 
 find_package(OpenGL REQUIRED)
-find_package(GLUT REQUIRED)
+#find_package(GLUT REQUIRED)
 
 #Configuration de l'exécutable
 file(GLOB_RECURSE headers src/*.h)
